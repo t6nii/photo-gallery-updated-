@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+	margin: 0;
+	padding-top: 25px;
+}
+.menu {
+	z-index: 10;
+	list-style: none;
+	font-family: inherit;
+	position: fixed;
+	top: 0px;
+	background-color: black;
+	width: 100%;
+	margin-top: 0px;
+	opacity: 75%;
+}
+.link {
+	float: center;
+	color: darkblue;
+	padding-left: 33px;
+	padding-right: 25px;
+	display: inline;
+	font-family: fantasy;
+	font-size: 20px;
+	opacity: 100%;
+}
+.link:hover {
+	color: red;
+}
+#gridIMG {
+	width: 200px;
+	height: 150px;
+}
+#headerF1 {
+	z-index: 10;
+}
+#myCarouse img {
+	z-index: 9;
+	height: 300px;
+	margin-top: 35px;
+}
+#myCarouse2 {
+	background-color: green;
+}
